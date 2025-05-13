@@ -1,0 +1,40 @@
+.register-page {
+  position: relative;
+}
+
+.register-logo {
+  width: 70px;
+}
+
+.register-card {
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 20px;
+  max-width: 400px;
+  width: 100%;
+  color: white;
+  backdrop-filter: blur(10px);
+}
+
+.custom-input {
+  border-radius: 50px;
+  padding: 0.75rem 1.25rem;
+  border: none;
+}
+
+.custom-input::placeholder {
+  color: #f8c8dc;
+}
+
+.google-btn {
+  border-radius: 50px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-icon {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 8px;
+}

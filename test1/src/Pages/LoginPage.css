@@ -1,0 +1,23 @@
+.background {
+  background-image: url('../assets/colombo7.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  border-radius: 20px;
+  background: linear-gradient(135deg, #75c5da, #7f7f7f);
+  padding: 1.5rem;
+}
