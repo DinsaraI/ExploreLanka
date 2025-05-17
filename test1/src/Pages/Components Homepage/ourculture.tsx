@@ -7,7 +7,11 @@ const OurCulture = () => {
       <Row className="align-items-center">
         {/* Image on the left */}
         <Col md={6}>
-          <img src={Culture} alt="Sri Lanka Map" className="img-fluid" />
+          <img
+            src={Culture}
+            alt="Sri Lanka Map"
+            className="img-fluid rounded"
+          />
         </Col>
 
         {/* Text on the right */}

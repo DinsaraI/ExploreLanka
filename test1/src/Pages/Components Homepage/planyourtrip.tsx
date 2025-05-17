@@ -4,8 +4,8 @@ import map from "../assets/map.jpeg";
 const MapYourTrip = () => {
   return (
     <Container className="my-5">
-      <Row className="align-items-center">
-        <Col md={6}>
+      <Row className="flex-column-reverse flex-md-row align-items-center">
+        <Col md={6} className="mt-4 mt-md-0">
           <h2 className="fw-bold mb-3">MAP YOUR JOURNEY THROUGH SRI LANKA</h2>
           <p>
             Use our interactive map
@@ -30,7 +30,11 @@ const MapYourTrip = () => {
           </Button>
         </Col>
         <Col md={6}>
-          <img src={map} alt="Sri Lanka Map" className="img-fluid" />
+          <img
+            src={map}
+            alt="Sri Lanka Map"
+            className="img-fluid rounded shadow rounded "
+          />
         </Col>
       </Row>
     </Container>

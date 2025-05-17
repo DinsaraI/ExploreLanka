@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col, Form, Button, Card } from "react-bootstrap";
 import BasicExample from "./Common Components/navbar";
 import "./LoginPage.css"; // Regular CSS file import

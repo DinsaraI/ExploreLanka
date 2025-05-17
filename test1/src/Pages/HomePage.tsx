@@ -3,17 +3,17 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Common Components/navbar"; // Make sure the path is correct
-import bg1 from "../assets/BgImag.png"; // Replace with your actual image path
 import FeaturedDestinations from "./Components Homepage/fetured";
 import OurCulture from "./Components Homepage/ourculture";
 import MapYourTrip from "./Components Homepage/planyourtrip";
 import Reviews from "./Components Homepage/reviews";
 import ThingsToDo from "./Components Homepage/thingstodo";
 import Footer from "./Common Components/footer";
+import "./HomePage.css";
 
 function Home() {
   return (
-    <div style={{ position: "relative" }}>
+    <div style={{ position: "relative", overflowX: "hidden" }}>
       {/* Import your custom transparent navbar */}
       <Navbar />
 
@@ -21,14 +21,8 @@ function Home() {
       <Carousel controls={false} indicators={false} fade interval={7000}>
         <Carousel.Item>
           <div
-            style={{
-              backgroundImage: `url(${bg1})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              height: "100vh",
-              width: "100%",
-              position: "relative",
-            }}
+            className="hero-background"
+            style={{ position: "relative", overflow: "hidden" }}
           >
             {/* Overlay Content */}
             <div
